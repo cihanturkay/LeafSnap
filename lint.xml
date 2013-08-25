@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res\layout\adapterrow.xml" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res\layout\adapterrow.xml" />
+    </issue>
+    <issue id="NewApi" severity="ignore" />
+</lint>

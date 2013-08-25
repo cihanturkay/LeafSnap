@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="@drawable/popup_frame"
+    >
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_toLeftOf="@+id/gallerlist"
+        android:src="@drawable/shad2" />
+
+    <ListView
+        android:id="@+id/gallerlist"
+        android:layout_width="60dip"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom"
+        android:dividerHeight="3dip"
+        android:cacheColorHint="#00000000"
+        android:listSelector="@drawable/list_selector"
+         />
+        <uiworks.PicPreview
+        android:id="@+id/picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/gallerlist"      
+        android:adjustViewBounds="true" 
+        android:layout_marginRight="15dip"
+        android:layout_marginLeft="4dip"
+        android:layout_marginTop="4dip"
+        android:layout_marginBottom="4dip"
+        android:layout_centerInParent="true"
+        
+       
+          />
+
+</RelativeLayout><!-- <RelativeLayout -->
+<!-- android:layout_width="fill_parent" -->
+<!-- android:layout_height="0dip" -->
+<!-- android:layout_weight="24" > -->
+
+<!-- <LinearLayout -->
+<!-- android:layout_width="fill_parent" -->
+<!-- android:layout_height="fill_parent" -->
+<!-- android:layout_margin="5dip" -->
+<!-- android:background="@drawable/back" -->
+<!-- android:orientation="horizontal" -->
+<!-- android:gravity="center_horizontal" -->
+<!-- android:padding="5dip" -->
+<!-- android:weightSum="22" > -->
+
+<!-- <uiworks.PicPreview -->
+<!-- android:id="@+id/picture" -->
+<!-- android:layout_width="wrap_content" -->
+<!-- android:layout_height="wrap_content" -->
+<!-- android:adjustViewBounds="true" -->
+<!-- /> -->
+
+<!-- <ImageView -->
+<!-- android:id="@+id/picture" -->
+<!-- android:layout_width="0dip" -->
+<!-- android:layout_height="fill_parent" -->
+<!-- android:layout_gravity="center_horizontal" -->
+<!-- android:layout_weight="22" -->
+
+<!-- /> -->
+
+<!-- <LinearLayout -->
+<!-- android:layout_width="0dip" -->
+<!-- android:layout_height="fill_parent" -->
+<!-- android:layout_weight="8" -->
+<!-- android:orientation="horizontal" > -->
+
+<!-- <RelativeLayout -->
+<!-- android:layout_width="fill_parent" -->
+<!-- android:layout_height="fill_parent" > -->
+
+<!-- <LinearLayout -->
+<!-- android:layout_width="fill_parent" -->
+<!-- android:layout_height="fill_parent" -->
+<!-- android:layout_marginTop="5dp" -->
+<!-- android:layout_marginBottom="5dp" -->
+<!-- android:orientation="vertical" -->
+<!-- android:weightSum="8" > -->
+
+<!-- <TextView -->
+<!-- android:id="@+id/infoText" -->
+<!-- android:layout_width="fill_parent" -->
+<!-- android:layout_height="0dip" -->
+<!-- android:layout_gravity="center" -->
+<!-- android:layout_weight="7.5" -->
+<!-- android:gravity="center" -->
+<!-- android:layout_marginLeft="2dp" -->
+<!-- android:hint="To get information about the uploaded leaf, press info button" -->
+<!-- android:textColorHint="@android:color/white" -->
+<!-- android:textColor="@android:color/white" -->
+<!-- android:textStyle="bold" /> -->
+
+<!-- <Button -->
+<!-- android:id="@+id/upload" -->
+<!-- android:layout_width="match_parent" -->
+<!-- android:layout_height="wrap_content" -->
+<!-- android:layout_marginRight="-5dp" -->
+<!-- android:layout_weight="0.25" -->
+<!-- android:background="@drawable/button" -->
+<!-- android:text="Upload" -->
+<!-- android:textColor="@android:color/white" -->
+<!-- android:textStyle="bold" /> -->
+
+<!-- <Button -->
+<!-- android:id="@+id/getInfo" -->
+<!-- android:layout_width="match_parent" -->
+<!-- android:layout_height="wrap_content" -->
+<!-- android:layout_marginRight="-5dp" -->
+<!-- android:layout_weight="0.25" -->
+<!-- android:background="@drawable/button" -->
+<!-- android:text="Info" -->
+<!-- android:textColor="@android:color/white" -->
+<!-- android:textStyle="bold" /> -->
+<!-- </LinearLayout> -->
+<!-- </RelativeLayout> -->
+<!-- </LinearLayout> -->
+<!-- </LinearLayout> -->
+<!-- </RelativeLayout> -->
+
+<!-- <Gallery -->
+<!-- android:id="@+id/gallery" -->
+<!-- android:layout_width="fill_parent" -->
+<!-- android:layout_height="0dip" -->
+<!-- android:layout_weight="10" /> -->
+

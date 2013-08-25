@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/bacground"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/username_sign"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:inputType="textNoSuggestions"
+            android:nextFocusDown="@+id/password_sign" />
+
+        <EditText
+            android:id="@+id/password_sign"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:nextFocusDown="@+id/email_sign"
+            android:nextFocusUp="@+id/username_sign" />
+
+        <EditText
+            android:id="@+id/email_sign"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress"
+            android:nextFocusDown="@+id/name_sign"
+            android:nextFocusUp="@+id/password_sign" />
+
+        <EditText
+            android:id="@+id/name_sign"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="textNoSuggestions"
+            android:nextFocusDown="@+id/surname_sign"
+            android:nextFocusUp="@+id/email_sign" />
+
+        <EditText
+            android:id="@+id/surname_sign"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Surname"
+            android:inputType="textNoSuggestions"
+            android:nextFocusDown="@+id/SignupButton"
+            android:nextFocusUp="@+id/name_sign" />
+
+        <Button
+            android:id="@+id/SignupButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="Sign up"
+            android:onClick="onClick" />
+    </LinearLayout>
+
+</LinearLayout>

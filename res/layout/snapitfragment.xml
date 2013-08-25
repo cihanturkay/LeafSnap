@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <uiworks.Preview
+        android:id="@+id/cameraview"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.07" />
+    
+    <ImageView android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:visibility="invisible"/>
+
+    <!-- <uıworks.ResultView -->
+    <!-- android:id="@+id/resultview" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:visibility="invisible" -->
+    <!-- /> -->
+
+<!--     <LinearLayout -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:orientation="horizontal" -->
+<!--         android:weightSum="2" > -->
+ 
+
+<!--     <Button -->
+<!--         android:id="@+id/snapshot" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:onClick="onClick" -->
+<!--         android:text="Snapshot" -->
+<!--         android:layout_weight="1"/> -->
+    
+<!--     <Button -->
+<!--         android:id="@+id/figureout" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:onClick="onClick" -->
+<!--         android:text="Figure Out" -->
+<!--         android:layout_weight="1" /> -->
+    
+<!--        </LinearLayout> -->
+
+</LinearLayout>

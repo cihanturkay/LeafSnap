@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <!--  ListRow Left sied Thumbnail image -->
+    <LinearLayout android:id="@+id/thumbnail"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+ 
+        <ImageView
+            android:id="@+id/galleritem"
+            android:layout_width="70dip"
+            android:layout_height="120dip"
+            android:adjustViewBounds="true"
+            android:src="@drawable/icon"/>
+ 
+    </LinearLayout>

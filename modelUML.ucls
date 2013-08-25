@@ -1,0 +1,108 @@
+<class-diagram version="1.0.10" icons="true" always-add-relationships="true" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="com.leaf.BaseFragment" project="Leaf" 
+    file="/Leaf/src/com/leaf/BaseFragment.java" binary="false">    
+    <position height="-1" width="-1" x="359" y="88"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="com.leaf.CatalogFragment" project="Leaf" 
+    file="/Leaf/src/com/leaf/CatalogFragment.java" binary="false">    
+    <position height="248" width="157" x="10" y="209"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="com.leaf.CollectionFragment" project="Leaf" 
+    file="/Leaf/src/com/leaf/CollectionFragment.java" binary="false">    
+    <position height="333" width="150" x="172" y="209"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" name="com.leaf.HomeFragment" project="Leaf" 
+    file="/Leaf/src/com/leaf/HomeFragment.java" binary="false">    
+    <position height="197" width="114" x="330" y="210"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="5" corner="BOTTOM_RIGHT" language="java" name="com.leaf.SnapItFragment" project="Leaf" 
+    file="/Leaf/src/com/leaf/SnapItFragment.java" binary="false">    
+    <position height="350" width="151" x="12" y="471"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="6" corner="BOTTOM_RIGHT" language="java" name="com.leaf.SignUpFragment" project="Leaf" 
+    file="/Leaf/src/com/leaf/SignUpFragment.java" binary="false">    
+    <position height="135" width="154" x="496" y="17"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="7" corner="BOTTOM_RIGHT" language="java" name="com.leaf.LocalActivityManagerFragment" project="Leaf" 
+    file="/Leaf/src/com/leaf/LocalActivityManagerFragment.java" binary="false">    
+    <position height="248" width="200" x="328" y="416"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <dependency id="8">    
+    <bendpoint x="510" y="304"/>    
+    <bendpoint x="576" y="304"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <generalization id="9">    
+    <bendpoint x="5" y="530"/>    
+    <bendpoint x="5" y="192"/>    
+    <bendpoint x="513" y="191"/>    
+    <bendpoint x="359" y="191"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="10">    
+    <bendpoint x="390" y="192"/>    
+    <bendpoint x="359" y="191"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="11">    
+    <bendpoint x="565" y="541"/>    
+    <bendpoint x="565" y="191"/>    
+    <bendpoint x="359" y="191"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="12">    
+    <bendpoint x="85" y="192"/>    
+    <bendpoint x="359" y="192"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="13">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="14">    
+    <bendpoint x="249" y="191"/>    
+    <bendpoint x="359" y="191"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
